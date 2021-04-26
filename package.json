@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "typescript": "^4.1.5"
+  },
+  "scripts": {
+    "requests": "tsc -p .; node lib/requests.js",
+    "clean-install": "rm -rf node_modules; npm i"
+  }
+}
